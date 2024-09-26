@@ -83,7 +83,8 @@ fastlane/test_output
 iOSInjectionProject/
 
 # Environment
-/Sources/Resources/*.env
+*.env
+!secret-sample.env
 
 ### macOS ###
 # General
